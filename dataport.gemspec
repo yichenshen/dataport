@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Dataport::VERSION
   s.authors     = ["Shen Yichen"]
   s.email       = ["2007.yichen@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/yichenshen/dataport"
   s.summary     = "Extendable package to port/migrate data between databases."
   s.description = "This gem is intended for use in data migrations. It provides an interface to clearly define rules to move data from one schema to another. Various hooks are also defined to allow for the process to be customized. Furthermore, the old and new primary keys will be recorded in a SQLite database file."
   s.license     = "MIT"
